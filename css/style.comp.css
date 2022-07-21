@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box; }
+
+header {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid black; }
+  header__banner {
+    width: 50%;
+    height: 100%;
+    background-color: red; }
+  header__top-real-tops {
+    width: 50%;
+    height: 100%;
+    background-color: aqua; }
+
+h1 {
+  color: #1da22f; }
+
+.container {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center; }

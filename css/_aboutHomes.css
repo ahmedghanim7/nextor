@@ -1,0 +1,37 @@
+.about-homes{
+  padding: 6rem ;
+  display: grid ;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4.5rem;
+}
+
+.about-homes .__single-home{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.about-homes .__single-home .icon{
+  font-size: 3rem;
+  color: #c69963;
+  margin-right: 1rem;
+  margin-top: -0.5rem;
+}
+
+.about-homes .__single-home p{
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+
+@media (max-width: 800px) {
+  .about-homes{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .about-homes{
+    grid-template-columns:  1fr;
+  }
+}

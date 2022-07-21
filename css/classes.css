@@ -1,0 +1,14 @@
+
+.main-title{
+  text-transform: uppercase;
+  color:#B28451;
+}
+
+.btn{
+  padding: 1rem 2rem ;
+  background-color: #c69963;
+  color: white;
+  border: none;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}

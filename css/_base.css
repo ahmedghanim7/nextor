@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+::selection{
+  background-color: #c69963;
+  color: rgb(70, 70, 70);
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+button{
+  cursor: pointer;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 800px) {
+  html{
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  html{
+    font-size: 7px;
+  }
+}

@@ -1,0 +1,191 @@
+.header {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.header .__banner {
+  color: white;
+  width: 100%;
+  padding: 2rem 5rem;
+  background-image: linear-gradient(to top, rgba(1, 1, 2, 0.719), rgba(11, 17, 28, 0.719)), url(../img/hero.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.header .__top-real-tops {
+  width: 100%;
+  background-color: rgb(253, 125, 219);
+}
+
+.__banner .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c69963;
+}
+
+.__banner .logo .logo_icon {
+  width: 5rem;
+  height: 4rem;
+  margin-right: 10px;
+}
+
+.__banner .logo h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.__banner .heading {
+  margin: 8rem 0 4rem;
+}
+
+.__banner .heading h3 {
+  color: #c69963;
+  font-size: 2.4rem;
+}
+
+.__banner .heading h1 {
+  font-size: 3rem;
+  margin-top: 0.7rem;
+  word-spacing: 0.5rem;
+}
+
+.__banner .heading button {
+  margin-top: 3rem;
+}
+
+.__banner ._banner-footer .top {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.__banner ._banner-footer span {
+  font-size: 1.6rem;
+}
+
+.__banner ._banner-footer .top .line {
+  height: 0.7px;
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+}
+
+
+.__banner .image-icons img {
+  width: 6rem;
+  height: 2rem;
+}
+
+.__banner ._banner-footer .image-icons {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header .__top-realtors {
+  background-color: rgb(4, 23, 46);
+  padding: 5rem;
+  text-align: center;
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.header ._realtors-items {
+  margin-top: 2.4rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.header ._realtors-item {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 100;
+  margin-bottom: 4rem;
+  /* margin-bottom: 2rem; */
+}
+
+.header ._realtors-items img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 1rem;
+}
+
+/* 
+// COLOR VARIABLES
+$color-primary: #c69963;
+$color-primary-dark: #B28451;
+
+$color-secondary: #101d2c;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #54483A;
+$color-grey-dark-2: #6D5D4B;
+
+// FONT VARIABLES
+$font-primary: 'Nunito', sans-serif;
+$font-display: 'Josefin Sans', sans-serif;
+
+
+*/
+
+
+@media (max-width: 800px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+  .header .__top-realtors {
+    background-color: rgb(4, 23, 46);
+    padding: 8rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+
+  .header ._realtors-items {
+    margin-top: 2.4rem;
+    height: 100%;
+    /* border: 1px solid #c69963; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 1.6rem;
+  }
+
+  .main-title{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+ 
+  .header ._realtors-items {
+    font-size: 1.4rem;
+  }
+
+  .main-title{
+    font-size: 2.5rem;
+  }
+}
